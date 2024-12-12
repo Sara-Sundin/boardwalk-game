@@ -70,7 +70,6 @@ h2 {
 }
 
 /* grid visualisation CSS for testing 
-
 .container,
 .row {
     border: 2px solid black;
@@ -80,3 +79,31 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 }*/
+
+/* Media quires*/
+
+/*Medium devices, tablets 768px and up */
+
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 217px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 190px;
+    }
+}
