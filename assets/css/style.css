@@ -42,29 +42,29 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* Buttons*/
+/* Buttons */
 
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
-    color:white;
+    color: white;
 }
 
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
-    color:white;
+    color: white;
 }
 
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
-    color: var(--highlight-color);
+    color: var(--highlight-color)
 }
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
-    color:white;
+    color: white
 }
 
 /* Navbar */
@@ -93,6 +93,33 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/* Events*/
+
+.text-left {
+    text-align: left;
+}
+
+.table  {
+    font-size:12px;
+}
+
+
+#discount p {
+    background-color: var(--highlight-color);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+@media (max-width: 768px) {
+    .custom-center {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Game library cards */
