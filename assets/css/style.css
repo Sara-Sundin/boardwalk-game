@@ -115,13 +115,6 @@ h2 {
     padding-bottom: 0.3em;
 }
 
-@media (max-width: 768px) {
-    .custom-center {
-        display: flex;
-        justify-content: center;
-    }
-}
-
 /* Game library cards */
 
 #new-games .card,
@@ -185,6 +178,10 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    #discount p {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -193,6 +190,11 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+    #discount p {
+        margin-left: 250px;
+        margin-right: 250px;
+        text-align: center;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -200,6 +202,11 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
+    }
+    #discount p {
+        margin-left: 700px; /* Adjust left margin to move it to the left */
+        margin-right: 150px; /* Ensure right margin is removed */
+        text-align: center; /* Align text content to the right */
     }
 }
 
