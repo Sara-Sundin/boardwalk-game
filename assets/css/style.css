@@ -101,6 +101,10 @@ h2 {
     text-align: left;
 }
 
+#text-right {
+    text-align: right;
+}
+
 .table  {
     font-size:12px;
 }
@@ -121,6 +125,10 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+/*Reserve game section*/
+
+
 
 /* Footer / contact */
 
