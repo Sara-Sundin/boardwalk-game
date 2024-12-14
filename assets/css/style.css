@@ -19,6 +19,7 @@ body {
 
 header {
     padding-top: 57px; /* Adjusted to match the height of the navbar */
+    margin-top: 2rem;
 }
 
 h1,
@@ -42,7 +43,8 @@ h2 {
 }
 
 .section {
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 #events {
