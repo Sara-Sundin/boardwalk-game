@@ -42,7 +42,7 @@ h2 {
 }
 
 .section {
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 #events {
@@ -135,7 +135,7 @@ h2 {
 
 /*Reserve game section*/
 
-#reserve-form {
+#reserve-formg {
     padding-bottom: 2rem;
 }
 
