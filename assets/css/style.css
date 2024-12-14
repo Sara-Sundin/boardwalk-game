@@ -17,6 +17,10 @@ body {
     font-family: var(--primary-font);
 }
 
+header {
+    padding-top: 50px; /* Adjusted to match the height of the navbar */
+}
+
 h1,
 h2,
 h3 {
