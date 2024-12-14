@@ -45,6 +45,10 @@ h2 {
     padding-top: 4rem;
 }
 
+#events {
+    padding-bottom: 2rem;
+}
+
 /* Buttons */
 
 .custom-button-filled {
@@ -131,6 +135,9 @@ h2 {
 
 /*Reserve game section*/
 
+#reserve-form {
+    padding-bottom: 2rem;
+}
 
 
 /* Footer / contact */
